@@ -25,3 +25,17 @@ Simulated data and empirical autocorrelation functions are used for illustration
 📁 Data
 
 The data, along with data from other races, is publically available at: https: //www.kaggle.com/rohanrao/formula-1-world-championship-1950-2020/version/13?select=lap_times.csv.
+
+
+
+## 🛠️ Environment Setup
+
+Use `uv` to create an isolated R environment:
+
+```bash
+# Sync environment (first time may take a few minutes)
+./uv sync
+
+# Run scripts
+./uv run build_dataset.R              # uses latest raceId
+Rscript Formula_1_Prediction.r        # run prediction model

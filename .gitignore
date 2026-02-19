@@ -1,0 +1,16 @@
+# R / renv
+renv/library/
+renv/staging/
+renv/python/
+
+# R session / outputs
+.Rhistory
+.RData
+*.Rproj.user
+AllDat.csv
+DataA1.RData
+
+# macOS
+.DS_Store
+.DS_Store
+*.csv
