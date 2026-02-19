@@ -37,5 +37,5 @@ Use `uv` to create an isolated R environment:
 ./uv sync
 
 # Run scripts
-./uv run build_dataset.R              # uses latest raceId
+Rscript build_dataset.R              # uses latest raceId
 Rscript Formula_1_Prediction.r        # run prediction model
